@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>School of Geography, Development and Environment</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://geography.arizona.edu/'>School of Geography, Development and Environment</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
