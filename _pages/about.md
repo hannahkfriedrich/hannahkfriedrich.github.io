@@ -2,16 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://geography.arizona.edu/'>School of Geography, Development and Environment</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD Candidate. <a href='https://geography.arizona.edu/'>School of Geography, Development and Environment</a>. 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Friedrich_Cropped_Image.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Ithaca, NY</p>
-    <p>123 your address street</p>
-    <p>Tucson, AZ 85719</p>
+    <p>Tucson, AZ</p>
 
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
@@ -19,8 +18,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hey hey heyo. CHeck.  Test test test. Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a geographer. My dissertation explores aligning satellite-based indicators of post-hurricane recovery with interviews and administrative records on heirship property, households’ use of homeowners insurance, and litigation with insurance companies. I use mixed methods to identify the socio-legal limitations households face in addressing losses from extreme events and how this creates uneven geographies of recovery. My research agenda is guided by working alongside disaster-impacted communities to translate inequities documented with various data sources to policymakers and advocate for more just climate adaptation. I earned my Master’s in Geography from Oregon State University and Bachelor’s in Geography and Geographic Information Systems/Cartography from the University of Wisconsin-Madison.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+You can check out my previous publications [here](/al-folio/publications/).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
