@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
+title: Public insurance programs
+description: Public Risk Pooling and Opportunities to Drive Climate Adaptation
 img: assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
-category: work
+category: active research
 ---
 
 Every project has a beautiful feature showcase page.

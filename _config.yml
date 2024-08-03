@@ -11,9 +11,10 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+  
+  
+keywords: # jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: tarp.png # ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -107,7 +108,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  The best way to reach me is via <a href="mailto:hfriedrich@arizona.edu" target="_blank">email</a>, but Hedwig will work too..
+  The best way to reach me is via <a href="mailto:hfriedrich@arizona.edu" target="_blank">email</a>.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
