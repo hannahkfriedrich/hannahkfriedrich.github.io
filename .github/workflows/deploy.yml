@@ -3,38 +3,43 @@ name: Deploy Jekyll site
 on:
   push:
     branches:
-      - master  # triggers when you push to master
+      - master  # trigger on push to master
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Checkout your repo
+      # 1️⃣ Checkout the repo
       - uses: actions/checkout@v3
 
-      # 2. Setup Ruby environment
+      # 2️⃣ Setup Ruby environment
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.2  # or the version al-folio recommends
+          ruby-version: 3.3  # match your local version
 
-      # 3. Install dependencies
+      # 3️⃣ Install dependencies
       - name: Install dependencies
         run: |
           gem install bundler
           bundle install
 
-      # 4. Build Jekyll site
+      # 4️⃣ Install ImageMagick for al-folio webp generation
+      - name: Install ImageMagick
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
+
+      # 5️⃣ Build Jekyll site
       - name: Build site
         run: bundle exec jekyll build
 
-      # 5. Deploy to gh-pages
+      # 6️⃣ Deploy to gh-pages branch
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4.0.0
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./_site
           user_name: github-actions
           user_email: github-actions@github.com
+
