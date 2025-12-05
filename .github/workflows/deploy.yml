@@ -10,26 +10,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout the repo
+      # Checkout the repo
       - uses: actions/checkout@v3
 
-      # 2️⃣ Setup Ruby environment
+      # Setup Ruby environment
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.3  # match your local version
 
-      # 3️⃣ Install dependencies
+      # 3Install dependencies
       - name: Install dependencies
         run: |
           gem install bundler
           bundle install
 
-      # 4️⃣ Install ImageMagick for al-folio webp generation
+      # Install ImageMagick for al-folio webp generation
       - name: Install ImageMagick
         run: sudo apt-get update && sudo apt-get install -y imagemagick
 
-      # 5️⃣ Build Jekyll site
+      # Build Jekyll site
       - name: Build site
         run: bundle exec jekyll build
 
