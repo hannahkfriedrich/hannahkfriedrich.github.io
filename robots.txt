@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: hannahkfriedrich.com/sitemap.xml
+Sitemap: https://hannahkfriedrich.com/sitemap.xml
